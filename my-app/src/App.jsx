@@ -14,16 +14,16 @@ function App() {
 
       <div class="flex flex-col justify-center items-center px-20 py-20">
 
-        <div class="bg-neutral-800 rounded-4xl w-320 h-180 shadow-2xl mb-20 flex flex-row justify-center items-center">
+        <div class="bg-neutral-900 rounded-4xl w-320 h-180 mb-20 flex flex-row justify-center items-center">
           <img class="mr-60 w-auto h-100 border-4 border-cyan-600 rounded-4xl" src="abc.png" alt="img" />
           <div class="text-white text-2xl">
             Name : Phacharaphol Phinitkit <br /><br /> Nickname : Toon <br /><br /> Age : 18 <br /><br /> School : Ratwinit Bangkeao <br /><br /> Hobby : Coding , Listen music
           </div>
         </div>
 
-        <div class="bg-neutral-800 rounded-4xl w-320 h-180 shadow-2xl mb-20 flex flex-col justify-center items-center">
+        <div class="bg-neutral-900 rounded-4xl w-320 h-180 mb-20 flex flex-col justify-center items-center">
           <div>
-            <h1 class="text-4xl text-white mb-10">My Skills</h1>
+            <h1 class="text-4xl text-white mb-20">My Skills</h1>
           </div>
 
 
@@ -33,7 +33,7 @@ function App() {
               <img className="w-auto h-30 mx-auto mb-10 mt-5" src="html.png" alt="HTML" />
               <h1>HTML</h1>
 
-              <div className="absolute inset-0 bg-neutral-500 bg-opacity-80 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col items-center justify-center text-sm px-10 py-10">
+              <div className="absolute inset-0 bg-neutral-500 bg-opacity-80 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col items-center justify-center text-sm px-10 py-10 cursor-pointer">
                 <p className="text-white text-1xl text-center mb-7">HTML เป็นสิ่งแรกที่ผมศึกษาและยังเป็นพื้นฐานของการสร้างเว็บไซต์นึงขึ้นมาครับ</p>
                 <p className="text-amber-300 text-2xl text-center mb-3">Experience</p>
                 <div className="w-full relative bg-gray-400 rounded-full h-5 mb-3">
@@ -47,7 +47,7 @@ function App() {
               <img class="w-auto h-30 mx-auto mb-10 mt-5" src="tw.png" alt="TAILWIND" />
               <h1>TAILWIND</h1>
 
-              <div className="absolute inset-0 bg-neutral-500 bg-opacity-80 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col items-center justify-center text-sm px-10 py-10">
+              <div className="absolute inset-0 bg-neutral-500 bg-opacity-80 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col items-center justify-center text-sm px-10 py-10 cursor-pointer">
                 <p className="text-white text-1xl text-center mb-7">HTML เป็นสิ่งแรกที่ผมศึกษาและยังเป็นพื้นฐานของการสร้างเว็บไซต์นึงขึ้นมาครับ</p>
                 <p className="text-amber-300 text-2xl text-center mb-3">Experience</p>
                 <div className="w-full relative bg-gray-400 rounded-full h-5 mb-3">
@@ -62,7 +62,7 @@ function App() {
               <img class="w-auto h-30 mx-auto mb-10 mt-5" src="React.png" alt="REACT" />
               <h1>REACT</h1>
 
-              <div className="absolute inset-0 bg-neutral-500 bg-opacity-80 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col items-center justify-center text-sm px-10 py-10">
+              <div className="absolute inset-0 bg-neutral-500 bg-opacity-80 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col items-center justify-center text-sm px-10 py-10 cursor-pointer">
                 <p className="text-white text-1xl text-center mb-7">HTML เป็นสิ่งแรกที่ผมศึกษาและยังเป็นพื้นฐานของการสร้างเว็บไซต์นึงขึ้นมาครับ</p>
                 <p className="text-amber-300 text-2xl text-center mb-3">Experience</p>
                 <div className="w-full relative bg-gray-400 rounded-full h-5 mb-3">
@@ -77,7 +77,7 @@ function App() {
               <img class="w-auto h-30 mx-auto mb-10 mt-5" src="js.png" alt="JAVA SCRIPT" />
               <h1>JAVA SCRIPT</h1>
 
-              <div className="absolute inset-0 bg-neutral-500 bg-opacity-80 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col items-center justify-center text-sm px-10 py-10">
+              <div className="absolute inset-0 bg-neutral-500 bg-opacity-80 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col items-center justify-center text-sm px-10 py-10 cursor-pointer">
                 <p className="text-white text-1xl text-center mb-7">HTML เป็นสิ่งแรกที่ผมศึกษาและยังเป็นพื้นฐานของการสร้างเว็บไซต์นึงขึ้นมาครับ</p>
                 <p className="text-amber-300 text-2xl text-center mb-3">Experience</p>
                 <div className="w-full relative bg-gray-400 rounded-full h-5 mb-3">
@@ -92,7 +92,7 @@ function App() {
               <img class="w-auto h-30 mx-auto mb-10 mt-5" src="C.png" alt="C + +" />
               <h1>C + +</h1>
 
-              <div className="absolute inset-0 bg-neutral-500 bg-opacity-80 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col items-center justify-center text-sm px-10 py-10">
+              <div className="absolute inset-0 bg-neutral-500 bg-opacity-80 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col items-center justify-center text-sm px-10 py-10 cursor-pointer">
                 <p className="text-white text-1xl text-center mb-7">HTML เป็นสิ่งแรกที่ผมศึกษาและยังเป็นพื้นฐานของการสร้างเว็บไซต์นึงขึ้นมาครับ</p>
                 <p className="text-amber-300 text-2xl text-center mb-3">Experience</p>
                 <div className="w-full relative bg-gray-400 rounded-full h-5 mb-3">
@@ -107,7 +107,7 @@ function App() {
               <img class="w-auto h-30 mx-auto mb-10 mt-5" src="python.png" alt="PYTHON" />
               <h1>PYTHON</h1>
 
-              <div className="absolute inset-0 bg-neutral-500 bg-opacity-80 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col items-center justify-center text-sm px-10 py-10">
+              <div className="absolute inset-0 bg-neutral-500 bg-opacity-80 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col items-center justify-center text-sm px-10 py-10 cursor-pointer">
                 <p className="text-white text-1xl text-center mb-7">HTML เป็นสิ่งแรกที่ผมศึกษาและยังเป็นพื้นฐานของการสร้างเว็บไซต์นึงขึ้นมาครับ</p>
                 <p className="text-amber-300 text-2xl text-center mb-3">Experience</p>
                 <div className="w-full relative bg-gray-400 rounded-full h-5 mb-3">
