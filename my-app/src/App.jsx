@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 function App() {
 
-    const goTo = (id) => {
+  const goTo = (id) => {
     const el = document.getElementById(id);
     if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
   };
@@ -33,7 +33,7 @@ function App() {
 
         <div id="home" class="bg-neutral-900 rounded-4xl w-320 h-180 mb-20 flex flex-col justify-center items-center scroll-mt-[150px]">
           <h1 className='text-white text-8xl'>Welcome to my website!</h1>
-          <p className='text-white text-6xl mt-10'>Welcome to my website!</p>
+          <p className='text-white text-6xl mt-10'>Phacharaphol Phinitkit</p>
         </div>
 
         <div id="profile" class="bg-neutral-900 rounded-4xl w-320 h-180 mb-20 flex flex-row justify-center items-center scroll-mt-[150px]">
@@ -50,11 +50,14 @@ function App() {
             <p className="text-4xl">เกี่ยวกับผม</p>
           </div>
 
-          <div className="flex-grow flex items-center justify-center">
-            <p className="text-white text-4xl text-center w-200 break-words">
-              สวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับ
-            </p>
+          <div className="flex-grow flex items-center justify-center px-6">
+            <div className="text-white text-xl md:text-2xl leading-relaxed tracking-wide text-justify max-w-[700px] space-y-4">
+              <p>
+                สวัสดีครับผมชื่อตูนผมเป็นคนที่ชอบลองทำสิ่งใหม่ ๆ โดยเฉพาะอะไรที่เกี่ยวกับเทคโนโลยี ตั้งแต่การเขียนโปรแกรม ออกแบบเว็บไปจนถึงการต่อวงจรเล็ก ๆ เพื่อให้ของที่อยู่เฉย ๆ มันขยับได้ ผมเริ่มสนใจคอมตั้งแต่เด็กเพราะชอบดูคลิปประกอบคอมกับคลิปสอนสร้างเกมในยูทูบ ตอนนั้นยังไม่เข้าใจเท่าไหร่แต่รู้แค่ว่ามันเท่ดีที่คนสามารถสร้างสิ่งหนึ่งขึ้นมาด้วยคอมพิวเตอร์ได้เอง หลังจากนั้นก็เริ่มลองเขียนโค้ดลองผิดลองถูกไปเรื่อย ๆ จนได้รู้ว่าความสนุกของมันคือการได้แก้ปัญหาทีละขั้นจนกว่าทุกอย่างจะทำงานได้ ช่วงหลัง ๆ ผมเริ่มสนใจด้านฮาร์ดแวร์มากขึ้นเพราะมันจับต้องได้จริง ผมชอบเวลาที่เห็นสิ่งที่ตัวเองเขียนโค้ดหรือประกอบไว้ทำงานขึ้นมา เช่นตอนทำรถบังคับ IoT ที่ผมเขียนโค้ดเองแล้วเห็นมันเคลื่อนไหวตามคำสั่งบนมือถือมันเป็นความรู้สึกที่ดีมากครับ
+              </p>
+            </div>
           </div>
+
         </div>
 
 
@@ -85,11 +88,11 @@ function App() {
               <h1>TAILWIND</h1>
 
               <div className="absolute inset-0 bg-neutral-500 bg-opacity-80 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col items-center justify-center text-sm px-10 py-10 cursor-pointer">
-                <p className="text-white text-1xl text-center mb-7">HTML เป็นสิ่งแรกที่ผมศึกษาและยังเป็นพื้นฐานของการสร้างเว็บไซต์นึงขึ้นมาครับ</p>
+                <p className="text-white text-1xl text-center mb-7">Tailwind เป็น Framework ที่ผมชอบมาก เพราะช่วยให้ผมจัดหน้าเว็บได้เร็วขึ้นและออกแบบได้ตามใจโดยไม่ต้องเขียน CSS เยอะครับ</p>
                 <p className="text-amber-300 text-2xl text-center mb-3">Experience</p>
                 <div className="w-full relative bg-gray-400 rounded-full h-5 mb-3">
-                  <div className="bg-cyan-600 h-full w-9/10 rounded-full"></div>
-                  <span className="absolute inset-0 flex items-center justify-center text-amber-300 text-xs font-semibold">90%</span>
+                  <div className="bg-cyan-600 h-full w-8/10 rounded-full"></div>
+                  <span className="absolute inset-0 flex items-center justify-center text-amber-300 text-xs font-semibold">80%</span>
                 </div>
               </div>
             </div>
@@ -100,11 +103,11 @@ function App() {
               <h1>REACT</h1>
 
               <div className="absolute inset-0 bg-neutral-500 bg-opacity-80 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col items-center justify-center text-sm px-10 py-10 cursor-pointer">
-                <p className="text-white text-1xl text-center mb-7">HTML เป็นสิ่งแรกที่ผมศึกษาและยังเป็นพื้นฐานของการสร้างเว็บไซต์นึงขึ้นมาครับ</p>
+                <p className="text-white text-1xl text-center mb-7">React คือสิ่งที่ทำให้ผมทำเว็บได้ไวมากขึ้นทำอะไรได้เยอะมากขึ้นมี Function ที่น่าสนใจเยอะครับ</p>
                 <p className="text-amber-300 text-2xl text-center mb-3">Experience</p>
                 <div className="w-full relative bg-gray-400 rounded-full h-5 mb-3">
-                  <div className="bg-cyan-600 h-full w-9/10 rounded-full"></div>
-                  <span className="absolute inset-0 flex items-center justify-center text-amber-300 text-xs font-semibold">90%</span>
+                  <div className="bg-cyan-600 h-full w-5/10 rounded-full"></div>
+                  <span className="absolute inset-0 flex items-center justify-center text-amber-300 text-xs font-semibold">50%</span>
                 </div>
               </div>
             </div>
@@ -115,11 +118,11 @@ function App() {
               <h1>JAVA SCRIPT</h1>
 
               <div className="absolute inset-0 bg-neutral-500 bg-opacity-80 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col items-center justify-center text-sm px-10 py-10 cursor-pointer">
-                <p className="text-white text-1xl text-center mb-7">HTML เป็นสิ่งแรกที่ผมศึกษาและยังเป็นพื้นฐานของการสร้างเว็บไซต์นึงขึ้นมาครับ</p>
+                <p className="text-white text-1xl text-center mb-7">JavaScript เป็นภาษาที่ทำให้เว็บไซต์มีชีวิต ผมใช้มันเพิ่มฟังก์ชันต่าง ๆ ให้เว็บ เช่น ปุ่มกด การคำนวณ หรือการเชื่อมต่อกับ API ครับ</p>
                 <p className="text-amber-300 text-2xl text-center mb-3">Experience</p>
                 <div className="w-full relative bg-gray-400 rounded-full h-5 mb-3">
-                  <div className="bg-cyan-600 h-full w-9/10 rounded-full"></div>
-                  <span className="absolute inset-0 flex items-center justify-center text-amber-300 text-xs font-semibold">90%</span>
+                  <div className="bg-cyan-600 h-full w-4/10 rounded-full"></div>
+                  <span className="absolute inset-0 flex items-center justify-center text-amber-300 text-xs font-semibold">40%</span>
                 </div>
               </div>
             </div>
@@ -130,11 +133,11 @@ function App() {
               <h1>C + +</h1>
 
               <div className="absolute inset-0 bg-neutral-500 bg-opacity-80 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col items-center justify-center text-sm px-10 py-10 cursor-pointer">
-                <p className="text-white text-1xl text-center mb-7">HTML เป็นสิ่งแรกที่ผมศึกษาและยังเป็นพื้นฐานของการสร้างเว็บไซต์นึงขึ้นมาครับ</p>
+                <p className="text-white text-1xl text-center mb-7">C++ เป็นภาษาที่ทำให้ผมเข้าใจพื้นฐานของการเขียนโปรแกรมเพื่อใช้กับระบบ IoT ครับ</p>
                 <p className="text-amber-300 text-2xl text-center mb-3">Experience</p>
                 <div className="w-full relative bg-gray-400 rounded-full h-5 mb-3">
-                  <div className="bg-cyan-600 h-full w-9/10 rounded-full"></div>
-                  <span className="absolute inset-0 flex items-center justify-center text-amber-300 text-xs font-semibold">90%</span>
+                  <div className="bg-cyan-600 h-full w-7/10 rounded-full"></div>
+                  <span className="absolute inset-0 flex items-center justify-center text-amber-300 text-xs font-semibold">70%</span>
                 </div>
               </div>
             </div>
@@ -145,11 +148,11 @@ function App() {
               <h1>PYTHON</h1>
 
               <div className="absolute inset-0 bg-neutral-500 bg-opacity-80 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col items-center justify-center text-sm px-10 py-10 cursor-pointer">
-                <p className="text-white text-1xl text-center mb-7">HTML เป็นสิ่งแรกที่ผมศึกษาและยังเป็นพื้นฐานของการสร้างเว็บไซต์นึงขึ้นมาครับ</p>
+                <p className="text-white text-1xl text-center mb-7">Python เป็นภาษาที่ผมใช้บ่อยที่สุด เพราะเขียนง่ายและอ่านง่าย ผมเคยใช้มันทำโปรแกรมเล็ก ๆ และทดลองเชื่อมต่อกับ IoT ด้วยครับ</p>
                 <p className="text-amber-300 text-2xl text-center mb-3">Experience</p>
                 <div className="w-full relative bg-gray-400 rounded-full h-5 mb-3">
-                  <div className="bg-cyan-600 h-full w-9/10 rounded-full"></div>
-                  <span className="absolute inset-0 flex items-center justify-center text-amber-300 text-xs font-semibold">90%</span>
+                  <div className="bg-cyan-600 h-full w-8/10 rounded-full"></div>
+                  <span className="absolute inset-0 flex items-center justify-center text-amber-300 text-xs font-semibold">80%</span>
                 </div>
               </div>
             </div>
@@ -157,32 +160,53 @@ function App() {
         </div>
 
         <div id="project" class="bg-neutral-900 rounded-4xl w-320 h-240 mb-20 flex flex-col items-center scroll-mt-[80px]">
-          <h1 class="text-6xl text-white mb-20 mt-15">My Skills</h1>
+          <h1 class="text-6xl text-white mb-20 mt-15">My Project</h1>
           <div className='grid grid-cols-1 md:grid-cols-3 gap-10 text-white w-300 h-140 mt-5'>
 
-            <div className='border-cyan-300 border-dashed border-4 rounded-2xl'>
-              <div>
-                <img src="js.png" alt="" />
-                <h1 className='text-3xl ml-3 mr-3'>สวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับ</h1>
-              </div>
-            </div>
-            <div className='border-cyan-300 border-dashed border-4 rounded-2xl'>
-              <div>
-                <img src="js.png" alt="" />
-                <h1 className='text-3xl ml-3 mr-3'>สวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับ</h1>
-              </div>
-            </div>
-            <div className='border-cyan-300 border-dashed border-4 rounded-2xl'>
-              <div>
-                <img src="js.png" alt="" />
-                <h1 className='text-3xl ml-3 mr-3'>สวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับสวัสดีครับ</h1>
-              </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-white w-300 mt-5">
+              {/* Card 1 */}
+              <article className="border-cyan-300 border-dashed border-4 rounded-2xl overflow-hidden">
+                <figure className="aspect-[4/3] overflow-hidden">
+                  <img src="IMG_8889.png" alt="Smart Pot with micro:bit" className="w-full h-full object-cover" />
+                </figure>
+                <div className="p-5">
+                  <h3 className="text-2xl font-semibold">Smart Pot (micro:bit)</h3>
+                  <p className="mt-2 text-neutral-300 leading-relaxed">
+                    ผมพัฒนา<strong>กระถางต้นไม้อัจฉริยะ</strong>ด้วย micro:bit ตรวจระดับแสงและความชื้นดิน:
+                    แสดง “Light” เมื่อแสงน้อย, “Water” เมื่อความชื้นต่ำ และไอคอนหน้ายิ้มเมื่อสภาพแวดล้อมเหมาะสม
+                  </p>
+                </div>
+              </article>
+
+              {/* Card 2 */}
+              <article className="border-cyan-300 border-dashed border-4 rounded-2xl overflow-hidden">
+                <figure className="aspect-[4/3] overflow-hidden">
+                  <img src="ro.jpg" alt="IoT RC Car (ESP32 + Blynk)" className="w-full h-full object-cover" />
+                </figure>
+                <div className="p-5">
+                  <h3 className="text-2xl font-semibold">IoT RC Car (ESP32 + Blynk)</h3>
+                  <p className="mt-2 text-neutral-300 leading-relaxed">
+                    ฝึกต่อวงจรและทดสอบเป็นขั้นตอนจนได้<strong>รถบังคับควบคุมผ่าน Wi-Fi</strong> ด้วยแอป Blynk
+                    สั่งเดินหน้า/ถอยหลัง/เลี้ยวได้แบบเรียลไทม์ เห็นภาพรวมฮาร์ดแวร์–ซอฟต์แวร์ชัดขึ้น
+                  </p>
+                </div>
+              </article>
+
+              {/* Card 3 */}
+              <article className="border-cyan-300 border-dashed border-4 rounded-2xl overflow-hidden">
+                <figure className="aspect-[4/3] overflow-hidden">
+                  <img src="spu.jpg" alt="SPU Coding Bootcamp (Power Apps)" className="w-full h-full object-cover" />
+                </figure>
+                <div className="p-5">
+                  <h3 className="text-2xl font-semibold">SPU Coding Bootcamp</h3>
+                  <p className="mt-2 text-neutral-300 leading-relaxed">
+                    เรียนสร้างแอปด้วย Power Apps ตั้งแต่การออกแบบ UI, เชื่อมฐานข้อมูล จนถึงทดสอบใช้งานจริง
+                    พร้อมโจทย์แข่งจำกัดเวลา ช่วยฝึกการทำงานเป็นทีมและการแก้ปัญหาเฉพาะหน้า
+                  </p>
+                </div>
+              </article>
             </div>
 
-          </div>
-
-          <div>
-            <button className='bg-white w-100 h-20 mt-20 cursor-pointer rounded-3xl border-10 border-cyan-300 border-double text-3xl'>More!!</button>
           </div>
 
         </div>
@@ -205,10 +229,10 @@ function App() {
 
 
             <div className='flex flex-col items-center border-l-2 h-55'>
-              <h1 className='text-center text-4xl'>Social</h1>
+              <h1 className='text-center text-4xl'>Contact</h1>
               <div className='text-left'>
-                <p className='text-xl mt-10'>Facebook : Phacharaphol Phinitkit</p>
-                <p className='text-xl mt-10'>instagram : pc0rqnkz</p>
+                <p className='text-xl mt-10'>E-mail : phacharaphol.ph@gmail.com</p>
+                <p className='text-xl mt-10'>Phone : 0922677624</p>
               </div>
             </div>
 
