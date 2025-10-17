@@ -37,7 +37,7 @@ function App() {
         </div>
 
         <div id="profile" class="bg-neutral-900 rounded-4xl w-320 h-180 mb-20 flex flex-row justify-center items-center scroll-mt-[150px]">
-          <img class="mr-60 w-auto h-100 border-4 border-cyan-600 rounded-4xl" src="abc.png" alt="img" />
+          <img class="mr-60 w-auto h-100 border-4 border-cyan-600 rounded-4xl" src="Toon.jpg" alt="img" />
           <div class="text-white text-2xl">
             Name : Phacharaphol Phinitkit <br /><br /> Nickname : Toon <br /><br /> Age : 18 <br /><br /> School : Ratwinit Bangkeao <br /><br /> Hobby : Coding , Listen music
           </div>
