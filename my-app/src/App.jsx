@@ -12,7 +12,7 @@ function App() {
       <div className="sticky top-0 bg-neutral-900 border-b-2 border-cyan-600 px-4 py-3 z-50 flex items-center justify-between">
         <div className="flex items-center gap-4">
           <button
-            className="text-white text-lg md:text-xl hover:text-cyan-400"
+            className="text-white text-lg md:text-xl hover:text-cyan-400 cursor-pointer"
             onClick={() => goTo("home")}
           >
             Toon
@@ -45,11 +45,11 @@ function App() {
         </div>
 
         <div className="hidden sm:flex items-center gap-5">
-          <button className="text-white hover:text-cyan-400" onClick={() => goTo("profile")}>Profile</button>
-          <button className="text-white hover:text-cyan-400" onClick={() => goTo("about")}>About Me</button>
-          <button className="text-white hover:text-cyan-400" onClick={() => goTo("skills")}>Skills</button>
-          <button className="text-white hover:text-cyan-400" onClick={() => goTo("project")}>Project</button>
-          <button className="text-white hover:text-cyan-400" onClick={() => goTo("contact")}>Contact</button>
+          <button className="text-white hover:text-cyan-400 cursor-pointer" onClick={() => goTo("profile")}>Profile</button>
+          <button className="text-white hover:text-cyan-400 cursor-pointer" onClick={() => goTo("about")}>About Me</button>
+          <button className="text-white hover:text-cyan-400 cursor-pointer" onClick={() => goTo("skills")}>Skills</button>
+          <button className="text-white hover:text-cyan-400 cursor-pointer" onClick={() => goTo("project")}>Project</button>
+          <button className="text-white hover:text-cyan-400 cursor-pointer" onClick={() => goTo("contact")}>Contact</button>
         </div>
       </div>
 
